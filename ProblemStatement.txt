@@ -1,0 +1,84 @@
+📌 Problem Statement
+
+Retailers often face significant challenges in accurately forecasting product demand, leading to issues such as overstocking or stockouts. These inefficiencies directly impact sales, increase operational costs, and reduce customer satisfaction.
+
+Traditional forecasting methods rely heavily on historical sales data combined with manual adjustments. However, such approaches fail to effectively capture:
+
+Sudden market trends
+Seasonal fluctuations
+External factors such as promotions and competitor activities
+
+Store managers and inventory planners struggle to aggregate and interpret multiple data sources quickly, making it difficult to take timely and informed replenishment decisions. This problem becomes even more complex in multi-store retail chains, where inventory optimization must balance both localized demand and overall supply chain constraints.
+
+As a result, poor demand forecasting leads to:
+
+Lost revenue opportunities
+Increased inventory holding costs
+Reduced customer loyalty
+
+Existing tools often lack:
+
+Real-time insights
+User-friendly interfaces
+Explainable AI-driven recommendations
+
+There is a strong need for a lightweight, intelligent assistant that leverages modern Generative AI capabilities to provide accurate, contextual, and explainable demand forecasts.
+
+📊 Data Considerations
+
+The solution will utilize the following data inputs:
+
+Historical sales data (daily or weekly) for retail products
+Format: CSV or JSON
+Additional contextual variables:
+Promotion schedules
+Holiday calendars
+Basic store attributes
+Data Sources
+Internal retail systems
+Public retail datasets (if internal data is unavailable)
+Data Characteristics
+Moderate data volume suitable for short-term forecasting (3–6 months)
+No personal customer data involved, minimizing privacy concerns
+Data Preparation
+Handling missing values
+Identifying seasonality patterns
+Basic preprocessing:
+Date parsing
+Normalization
+Recommendation
+Use synthetic or anonymized data for rapid prototyping
+Simulate:
+Demand fluctuations
+Promotional impacts
+🎯 Solution Expectations
+
+The proposed solution should include:
+
+💻 Interface
+A web-based application or command-line tool where users can input:
+Product ID
+Date range
+Contextual factors (e.g., promotion status)
+🤖 AI Functionality
+Generate short-term demand forecasts with numerical predictions
+Provide concise, natural language explanations highlighting key influencing factors
+📦 Core Deliverables
+AI-powered forecasting engine using prompt engineering
+Simple and intuitive user interface
+Exportable forecast report
+📈 Success Metrics
+
+The effectiveness of the solution will be evaluated based on:
+
+Forecast accuracy: ≥ 85%
+User understanding of AI-generated explanations (via demo feedback)
+Demonstrated reduction in overstock risk (target: 20% improvement)
+🚀 Additional Notes
+Integration can be limited to local data ingestion or a mock API
+Emphasis should be on:
+Simplicity
+Explainability
+Practical usability
+
+Participants are encouraged to explore creative approaches that align with the problem context and enhance the overall effectiveness of the solution.
